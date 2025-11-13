@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlite-utils
+pandas
+python-dotenv
+openai
+requests
+streamlit
+sqlalchemy
+python-multipart
+pydantic
+python-dateutil
+aiohttp
