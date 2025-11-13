@@ -30,15 +30,16 @@ It converts plain English questions into SQL queries and returns the results, wi
 
 maersk-genai-agent/
 ├─ backend/
-│ ├─ main.py # FastAPI server
-│ ├─ sql_utils.py # SQLite utility functions
+│  ├─ main.py                 # FastAPI server
+│  ├─ sql_utils.py            # SQLite utility functions
 ├─ frontend/
-│ ├─ app.py # Streamlit frontend
+│  ├─ app.py                  # Streamlit frontend
 ├─ data/
-│ ├─ ecommerce.db # SQLite database
-├─ .env # Environment variables (OpenAI key, DB path)
-├─ requirements.txt # Python dependencies
-├─ README.md
+│  ├─ ecommerce.db            # SQLite database
+├─ .env                        # Environment variables (OpenAI key, DB path)
+├─ requirements.txt            # Python dependencies
+├─ README.md                   # Project documentation
+
 
 
 
@@ -86,7 +87,7 @@ streamlit run frontend/app.py
 
 Access the frontend at: http://localhost:8501
 
-##🔹 API Endpoints
+##🔹API Endpoints
 
 GET /health → Health check
 
@@ -101,7 +102,7 @@ Request JSON:
 }
 
 ```
-##🔹 Security & Safety
+##🔹Security & Safety
 
 Only SELECT statements are allowed.
 
