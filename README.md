@@ -1,4 +1,4 @@
-# E-Commerce NL→SQL Agent
+# 🔹 maersk-genai-agent
 
 An AI-powered tool that allows you to query an e-commerce SQLite database using natural language.  
 It converts plain English questions into SQL queries and returns the results, with memory support for conversations.
@@ -72,7 +72,7 @@ OPENAI_API_KEY=your_openai_key_here
 DB_PATH=./data/ecommerce.db
 OPENAI_MODEL=gpt-4o-mini
 ```
-
+---
 ## Running the Application
 
 **Start the FastAPI backend:**
@@ -86,7 +86,7 @@ streamlit run frontend/app.py
 ```
 
 Access the frontend at: http://localhost:8501
-
+---
 ##🔹API Endpoints
 
 GET /health → Health check
@@ -102,6 +102,7 @@ Request JSON:
 }
 
 ```
+---
 ##🔹Security & Safety
 
 Only SELECT statements are allowed.
