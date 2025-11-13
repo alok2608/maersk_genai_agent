@@ -86,7 +86,9 @@ streamlit run frontend/app.py
 ```
 
 Access the frontend at: http://localhost:8501
+
 ---
+
 ##🔹API Endpoints
 
 GET /health → Health check
@@ -102,8 +104,10 @@ Request JSON:
 }
 
 ```
+
 ---
-##🔹Security & Safety
+
+##🔹 Security & Safety
 
 Only SELECT statements are allowed.
 
