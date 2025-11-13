@@ -1,11 +1,11 @@
-# 🔹 maersk-genai-agent
+#  maersk-genai-agent
 
 An AI-powered tool that allows you to query an e-commerce SQLite database using natural language.  
 It converts plain English questions into SQL queries and returns the results, with memory support for conversations.
 
 ---
 
-## 🔹 Features
+##  Features
 
 - Natural language → SQL query conversion using **OpenAI GPT-4o-mini**.
 - Memory of previous conversations per session.
@@ -16,7 +16,7 @@ It converts plain English questions into SQL queries and returns the results, wi
 
 ---
 
-## 🔹 Tech Stack
+##  Tech Stack
 
 - **Backend:** Python, FastAPI, SQLite
 - **Frontend:** Streamlit
@@ -26,8 +26,10 @@ It converts plain English questions into SQL queries and returns the results, wi
 
 ---
 
-## 🔹 Folder Structure
+##  Folder Structure
 
+
+```text
 maersk-genai-agent/
 ├─ backend/
 │  ├─ main.py                 # FastAPI server
@@ -41,8 +43,7 @@ maersk-genai-agent/
 ├─ README.md                   # Project documentation
 
 
-
-
+```
 ---
 
 ##  Setup & Installation
@@ -92,7 +93,7 @@ Access the frontend at: http://localhost:8501
 ---
 
 
-##🔹API Endpoints
+### API Endpoints
 
 GET /health → Health check
 
@@ -111,7 +112,7 @@ Request JSON:
 ---
 
 
-##🔹 Security & Safety
+### Security & Safety
 
 Only SELECT statements are allowed.
 
