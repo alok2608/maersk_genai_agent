@@ -72,7 +72,9 @@ OPENAI_API_KEY=your_openai_key_here
 DB_PATH=./data/ecommerce.db
 OPENAI_MODEL=gpt-4o-mini
 ```
+
 ---
+
 ## Running the Application
 
 **Start the FastAPI backend:**
@@ -88,6 +90,7 @@ streamlit run frontend/app.py
 Access the frontend at: http://localhost:8501
 
 ---
+
 
 ##🔹API Endpoints
 
@@ -106,6 +109,7 @@ Request JSON:
 ```
 
 ---
+
 
 ##🔹 Security & Safety
 
