@@ -44,43 +44,45 @@ maersk-genai-agent/
 
 ---
 
-## 🔹 Setup & Installation
+##  Setup & Installation
 
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/yourusername/ecommerce-nl-sql-agent.git
 cd ecommerce-nl-sql-agent
 
-
-Create a virtual environment:
-
+```
+2. ** Create a virtual environment:**
+```
 python -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
 
-
-Install dependencies:
-
+```
+3.**Install dependencies:**
+```
 pip install -r requirements.txt
 
+```
 
-Add your .env file:
-
+4.**Add your .env file:**
+```
 OPENAI_API_KEY=your_openai_key_here
 DB_PATH=./data/ecommerce.db
 OPENAI_MODEL=gpt-4o-mini
+```
 
-🔹 Running the Application
+## Running the Application
 
-Start the FastAPI backend:
-
+** Start the FastAPI backend:**
+```
 uvicorn backend.main:app --reload
+```
 
-
-Start the Streamlit frontend:
-
+** Start the Streamlit frontend:**
+```
 streamlit run frontend/app.py
-
+```
 
 Access the frontend at: http://localhost:8501
 
@@ -98,13 +100,6 @@ Request JSON:
   "limit": 100
 }
 
-🔹 Example Queries
-
-"Top 10 product categories by total sales in 2017"
-
-"Which customers from California spent the most?"
-
-"Average payment value per payment type"
 
 🔹 Security & Safety
 
